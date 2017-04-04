@@ -1,8 +1,8 @@
 # Algorithms-in-Java
 Algorithm implementation in java :)
 
-## Facebook
+### Facebook
 https://www.facebook.com/unwantedhridoy.cptrii
 
-# Email
+### Email
 md.saifulhq@gmail.com
