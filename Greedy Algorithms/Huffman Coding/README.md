@@ -24,7 +24,7 @@ Let us understand the algorithm with an example:
 
    
     character   Frequency
-      a	          5
+      a	         5
       b           9
       c           12
       d           13
