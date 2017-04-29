@@ -56,11 +56,11 @@ The greedy algorithm consists of four (4) function.
 
 * Initially the set of chosen items is empty i.e., solution set.
 * At each step
- * item will be added in a solution set by using selection function.
- * IF the set would no longer be feasible
-  * reject items under consideration (and is never consider again).
- * ELSE IF set is still feasible THEN
-  * add the current item.
+   * item will be added in a solution set by using selection function.
+   * IF the set would no longer be feasible
+      * reject items under consideration (and is never consider again).
+   * ELSE IF set is still feasible THEN
+      * add the current item.
 
 ## Source
 http://www.personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Greedy/greedyIntro.htm
