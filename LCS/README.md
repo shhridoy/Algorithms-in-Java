@@ -10,7 +10,7 @@ These kind of dynamic programming questions are very famous in the interviews li
     String A = "acbaed";
     String B = "abcadf";    
 <p align="center">
-    <img src="http://algorithms.tutorialhorizon.com/files/2015/06/Longest-Common-Subsequence-example.jpg"?raw="true">
+    <img src="http://algorithms.tutorialhorizon.com/files/2015/06/Longest-Common-Subsequence-example.jpg"?raw="true" width="50%">
 </p>
 
     Longest Common Subsequence - example
@@ -29,10 +29,10 @@ Now we have 2 cases -
    1. Remove the last char­ac­ter of String 1 and make a recur­sive call and remove the last char­ac­ter from String 2 and make a        recur­sive and then return the max from returns of both recur­sive calls. see exam­ple below
 **Exam­ple:**
 
-    Case 1: 
-
+    Case 1:
+    
     String A: "ABCD", String B: "AEBD"
-
+    
     LCS("ABCD", "AEBD") = 1 + LCS("ABC", "AEB")
 
     Case 2: 
@@ -66,7 +66,7 @@ Now we have 2 cases -
     
 In a given string of length n, there can be 2n sub­se­quences can be made, so if we do it by recur­sion then Time com­plex­ity will O(2n) since we will solv­ing sub prob­lems repeat­edly.
 <p align="center">
-<img src="http://algorithms.tutorialhorizon.com/files/2015/06/LCS-Recursion-Tree.png"?raw="true">
+<img src="http://algorithms.tutorialhorizon.com/files/2015/06/LCS-Recursion-Tree.png"?raw="true" width="50%" height="50%">
 </p>
 
 ## Dynamic Pro­gram­ming:
@@ -103,6 +103,6 @@ We will solve it in Top-manner and store the solu­tion of the sub prob­lems in
 
 Take a look into the LCS[][] used in the code
 <p align="center">
-<img src="http://algorithms.tutorialhorizon.com/files/2015/06/LCS-Printing-Result.png"?raw="true">
+<img src="http://algorithms.tutorialhorizon.com/files/2015/06/LCS-Printing-Result.png"?raw="true" width="50%" height="50%">
 </p>
 Start from bot­tom right cor­ner and track the path and mark the cell from which cell the value is com­ing and when­ever you go diag­o­nal ( means last char­ac­ter of both string has matched, so we reduce the length of both the strings by 1, so we moved diag­o­nally), mark those cells, this is our answer.
