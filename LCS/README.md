@@ -106,3 +106,6 @@ Take a look into the LCS[][] used in the code
 <img src="http://algorithms.tutorialhorizon.com/files/2015/06/LCS-Printing-Result.png"?raw="true" width="50%" height="50%">
 </p>
 Start from bot­tom right cor­ner and track the path and mark the cell from which cell the value is com­ing and when­ever you go diag­o­nal ( means last char­ac­ter of both string has matched, so we reduce the length of both the strings by 1, so we moved diag­o­nally), mark those cells, this is our answer.
+
+### Source
+http://algorithms.tutorialhorizon.com/dynamic-programming-longest-common-subsequence/
