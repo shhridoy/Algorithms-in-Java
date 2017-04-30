@@ -109,3 +109,6 @@ Start from bot­tom right cor­ner and track the path and mark the cell from whi
 
 ### Source
 http://algorithms.tutorialhorizon.com/dynamic-programming-longest-common-subsequence/
+
+### Useful Video Tutorial
+https://www.youtube.com/watch?v=P-mMvhfJhu8
