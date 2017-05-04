@@ -44,6 +44,7 @@ The graph contains 9 vertices and 14 edges. So, the minimum spanning tree formed
 
 Now pick all edges one by one from sorted list of edges
 1. Pick edge 7-6: No cycle is formed, include it.
+
 <p align="center">
     <img src="http://www.geeksforgeeks.org/wp-content/uploads/Fig-1.jpg"?raw="true" width="30%" height="20%">
 </p>
@@ -81,6 +82,7 @@ Now pick all edges one by one from sorted list of edges
 </p>
 
 8. Pick edge 7-8: Since including this edge results in cycle, discard it.
+
 9. Pick edge 0-7: No cycle is formed, include it.
 
 <p align="center">
@@ -97,3 +99,6 @@ Now pick all edges one by one from sorted list of edges
 Since the number of edges included equals (V – 1), the algorithm stops here.<br>
 
 **Time Complexity:** O(ElogE) or O(ElogV). Sorting of edges takes O(ELogE) time. After sorting, we iterate through all edges and apply find-union algorithm. The find and union operations can take atmost O(LogV) time. So overall complexity is O(ELogE + ELogV) time. The value of E can be atmost O(V2), so O(LogV) are O(LogE) same. Therefore, overall time complexity is O(ElogE) or O(ElogV)
+
+### Source
+http://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/
