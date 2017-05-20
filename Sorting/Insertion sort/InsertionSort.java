@@ -1,4 +1,3 @@
-package sorting;
 
 public class InsertionSort {
     
@@ -34,14 +33,13 @@ public class InsertionSort {
         obj.sort();
         System.out.printf("After Sorting\n");
         obj.display();
-        
-        /*SelectionSort ss = new SelectionSort();
-        System.out.println("\nBefore Sorting");
-        ss.display();
-        ss.sort();
-        System.out.println("After Sorting");
-        ss.display();*/
     }
     
 }
 
+/*OUTPUT:
+Before Sorting
+6 8 2 5 1 88 0 3 
+After Sorting
+0 1 2 3 5 6 8 88 
+*/
