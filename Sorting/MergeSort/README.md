@@ -57,3 +57,8 @@ Merge sort accesses data sequentially and the need of random access is low.
 
 2. Inversion Count Problem
 3. Used in External Sorting
+
+## Source Link:
+http://www.geeksforgeeks.org/merge-sort/
+
+
